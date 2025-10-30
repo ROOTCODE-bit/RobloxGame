@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Roblox / Rojo caches
+roblox-plugins/
+*.rbxlx
+*.rbxl
+*.rbxm
+*.rbxmx
+# (we'll keep place files & models out; your source-of-truth is the folder structure)
+
+# Node / Python (if you ever add scripts)
+node_modules/
+__pycache__/
+*.pyc
+

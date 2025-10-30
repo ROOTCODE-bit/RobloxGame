@@ -1,0 +1,22 @@
+{
+  "name": "my-roblox-game",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "SharedModule": { "$path": "src/ReplicatedStorage/SharedModule.lua" }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "main": { "$path": "src/ServerScriptService/main.server.lua" }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "client": { "$path": "src/StarterPlayer/StarterPlayerScripts/client.client.lua" }
+      }
+    }
+  }
+}
+
